@@ -26,6 +26,8 @@ public class StockPriceDataFetcher {
 
         }).join();
 
+        System.out.println("main thread is free");
+
     }
 
     public CompletableFuture<Double> fetchStockPriceFromApi1(String symbol) {
