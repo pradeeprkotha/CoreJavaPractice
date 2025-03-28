@@ -1,3 +1,5 @@
+package collections;
+
 @FunctionalInterface
 public interface FunInterface {
     public void getthings();

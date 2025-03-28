@@ -1,3 +1,5 @@
+package collections;
+
 import java.util.concurrent.ConcurrentHashMap;
 
 public class ThreadSafeMapExample {

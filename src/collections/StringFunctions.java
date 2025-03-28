@@ -1,3 +1,5 @@
+package collections;
+
 // Immutable means the state can not be modified after creation
 // Memory
 // Thread safe- 100 people can call one string and use it. but they can not change

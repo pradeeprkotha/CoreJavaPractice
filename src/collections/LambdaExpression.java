@@ -1,3 +1,5 @@
+package collections;
+
 public class LambdaExpression implements FunInterface{
 
     public void getthings() {

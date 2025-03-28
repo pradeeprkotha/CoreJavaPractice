@@ -1,3 +1,5 @@
+package collections;
+
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -10,9 +12,9 @@ public class NewOne {
         list1.add("apple");
         list1.add("apple");
         list1.add("mango");
-        list1.add("orange");list1.add("orange");list1.add("orange");list1.add("orange");list1.add("orange");list1.add("orange");list1.add("orange");list1.add("orange");
-
-
+        list1.add("orange");
+        list1.add("orange");list1.add("orange");list1.add("orange");
+        list1.add("orange");list1.add("orange");list1.add("orange");list1.add("orange");
 
 
         Map<String, Long> map1 =  list1.stream()

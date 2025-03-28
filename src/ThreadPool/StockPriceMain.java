@@ -2,7 +2,7 @@ package ThreadPool;
 
 import java.util.concurrent.CompletableFuture;
 
-// Main class Implementation of API calling
+// collections.Main class Implementation of API calling
 public class StockPriceMain {
     public static void main(String[] args) {
         String API = "https://api.coindesk.com/v1/bpi/currentprice.json";

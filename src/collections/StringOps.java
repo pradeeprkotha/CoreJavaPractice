@@ -1,3 +1,5 @@
+package collections;
+
 public class StringOps {
     public static void main(String[] args) {
         StringFunctions sf = new StringFunctions();

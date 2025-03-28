@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package collections;
+
 import java.util.function.Predicate;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or

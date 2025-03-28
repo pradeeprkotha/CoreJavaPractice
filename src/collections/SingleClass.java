@@ -1,3 +1,5 @@
+package collections;
+
 public class SingleClass {
 
     private int number =100;

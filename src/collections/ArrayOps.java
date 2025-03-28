@@ -1,3 +1,5 @@
+package collections;
+
 public class ArrayOps {
     public static void main(String[] args) {
         MergeArrays ma = new MergeArrays();

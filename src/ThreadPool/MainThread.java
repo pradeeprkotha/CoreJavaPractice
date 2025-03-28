@@ -8,6 +8,6 @@ public class MainThread {
 
         System.out.println(apiService.getResult());
         thread.start();
-        System.out.println("Main thread starts");
+        System.out.println("collections.Main thread starts");
     }
 }

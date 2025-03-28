@@ -1,3 +1,5 @@
+package collections;
+
 public class SamplePojo {
     private String name;
     private String email;
