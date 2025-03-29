@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class CTS {
+public class MultiString {
     public static void main(String[] args) {
         String s = "aabbccdjsajksakfakfdsjkfhjahdsfjhafkc";
         Map<String, Long> map = Arrays.stream(s.split(""))
