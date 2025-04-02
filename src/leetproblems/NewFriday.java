@@ -10,23 +10,16 @@ public class NewFriday {
         String para = "Hey i am a java developer java is object oriented programming language " +
                 "and object is the blue print of the class and class is the blue print of the object "+
                 ", the developers are using java 8 functionalities";
-        // a an to of the
 
-        List<String> ingnore = new ArrayList<>();
-        ingnore.add("a");ingnore.add("an");
-        ingnore.add("to"); ingnore.add("of");  ingnore.add("the");
+        List<String> ingnore = Arrays.asList("is", "the", "a", "an", "to", "of");
 
         // get top repeated words
-
       Map<String, Long> map =Arrays.stream(para.split(" "))
                 .filter(e->!ingnore.contains(e))
                 .limit(3)
+                .map(e->e.toUpperCase())
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
-
-
         System.out.println(map);
-
-
     }
 }
