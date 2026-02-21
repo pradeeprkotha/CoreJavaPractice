@@ -15,11 +15,19 @@ public class DuplicateElementInTwoArrays {
         for(int i =0; i < arr1.length; i++){
             for (int j = i+1; j < arr1.length; j++){
                 if(arr1[i] == arr1[j]){
-                    System.out.println("Duplicate element is: "+arr1[i]);
+                    System.out.println("Duplicate element is: = "+arr1[i]);
                     break;
                 }
             }
         }
+
+        List<Integer> ints = Arrays.asList(1,2,4,7,1);
+     ints.stream()
+                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
+                .entrySet().stream()
+             .filter(e->e.getValue()>1)
+             .forEach(e->System.out.println(e));
+
 
 
 

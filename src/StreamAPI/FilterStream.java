@@ -57,8 +57,8 @@ public class FilterStream {
         }
 
         int sum =  numbers.stream()
-//                .map(e-> e*e)
-                .mapToInt(e-> e*e)
+                .map(e-> e*e)
+                .mapToInt(e-> e)
                 .sum();
         System.out.println("Sum of numbers: " + sum);
 

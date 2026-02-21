@@ -2,14 +2,7 @@ package collections;
 
 public class EveryDayClass {
     public static void main(String[] args) {
-        SingleClass instance = SingleClass.getObject();
-        System.out.println(instance.getNumber());
 
-       SingleClass s1 = SingleClass.getObject();
-
-       if(s1 == instance) {
-           System.out.println("Both are same");
-       }
 
 
        Runnable runnable = new Runnable() {

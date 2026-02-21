@@ -10,7 +10,7 @@ public class JavaCollections {
     public static void feedDataLists(){
 
         List<String> list = new ArrayList<>();  // good for storage
-        LinkedList<String> linkedList = new LinkedList<>(); // good for operations/ data manipulations
+        List<String> linkedList = new LinkedList<>(); // good for operations/ data manipulations
         Vector<String> vector = new Vector<>(); // Vector methods are synchronised, so its thread safe
         Stack<String> stack = new Stack<>(); // Undo redo previous operations are saved.
 
